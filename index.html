@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Login Password </title>
+<script>
+function login() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    // Check if username and password are correct
+    if (username === "frome" && password === "hell") {
+        // If correct, redirect to protected page
+        window.location.href = "main.html";
+    } else {
+        // If incorrect, display error message
+        alert(" you don't have the password or username send me in telegram ");
+    }
+}
+</script>
+</head>
+<body>
+    <h1 align="center">
+    <p>Login In Hell</p>
+    <form>
+        <div>
+            <label for="username">Hellname:</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div>
+            <label for="password">Passhell:</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <button type="button" onclick="login()">GO</button>
+    </form>
+<p>you don't have the password or username send me in telegram </p>
+<p><a href="https://t.me/robot_Side002">telegram</a></p>
+</h1>
+</body>
+
+</html>
+
